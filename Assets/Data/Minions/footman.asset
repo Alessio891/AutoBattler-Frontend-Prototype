@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c9d38a4e8d041f479c19271429ad96b, type: 3}
+  m_Name: footman
+  m_EditorClassIdentifier: 
+  UID: footman
+  Name: Footman
+  Description: A simple footman
+  Tier: 1
+  Portrait: {fileID: 21300000, guid: a0d3adb822a26ff46ad2de6afa9680a1, type: 3}
+  Attack: 1
+  MaxHP: 4
+  CurrentHP: 0
+  Type: 0
+  GraphicPrefab: {fileID: 3946946762825840678, guid: 199fef80967f7ad49b8f3562ed0357c7, type: 3}

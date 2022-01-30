@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c9d38a4e8d041f479c19271429ad96b, type: 3}
+  m_Name: archer
+  m_EditorClassIdentifier: 
+  UID: archer
+  Name: Archer
+  Description: Simple ranged unit
+  Tier: 1
+  Portrait: {fileID: 21300000, guid: a7a1de4606e73e048a2d03ba0accf5e9, type: 3}
+  Attack: 1
+  MaxHP: 2
+  CurrentHP: 0
+  Type: 1
+  GraphicPrefab: {fileID: 508339740659068699, guid: 3f0fc6bbb7e23eb4abfe5db9506f7416, type: 3}

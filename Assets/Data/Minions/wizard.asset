@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c9d38a4e8d041f479c19271429ad96b, type: 3}
+  m_Name: wizard
+  m_EditorClassIdentifier: 
+  UID: wizard
+  Name: Wizard
+  Description: Magic ranged unit
+  Tier: 1
+  Portrait: {fileID: 21300000, guid: ebb76d70c554d8744b8aa4841275b0ec, type: 3}
+  Attack: 1
+  MaxHP: 2
+  CurrentHP: 0
+  Type: 1
+  GraphicPrefab: {fileID: 159911139195891298, guid: ca91cf0160424544b965ebb5c00fed3f, type: 3}

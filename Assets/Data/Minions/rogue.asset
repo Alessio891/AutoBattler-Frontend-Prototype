@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c9d38a4e8d041f479c19271429ad96b, type: 3}
+  m_Name: rogue
+  m_EditorClassIdentifier: 
+  UID: rogue
+  Name: Rogue
+  Description: Has a 5% chance to evade attack
+  Tier: 1
+  Portrait: {fileID: 21300000, guid: 5eb6b34190e5aa540bcec2d30027c037, type: 3}
+  Attack: 2
+  MaxHP: 3
+  CurrentHP: 0
+  Type: 0
+  GraphicPrefab: {fileID: 6894107616837045162, guid: c5b48b571d571e6438e571ca01075364, type: 3}
