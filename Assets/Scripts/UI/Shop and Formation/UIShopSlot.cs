@@ -42,14 +42,13 @@ public class UIShopSlot : UISlotEntry
                                 UIBuyPhase.instance.GoldText.text = packet.UpdatedGold.ToString() + "/6";
                                 UIBuyPhase.instance.UpdateShopList(packet.UpdatedData.CurrentMinionsInShop);
                                 UIBuyPhase.instance.UpdateFormation(packet.UpdatedData);
-                            }
-                            base.OnEndDrag(eventData);
+                            }        
                         }
                         );
             }
         }
 
-        if (!dropSlotFound)
-            base.OnEndDrag(eventData);
+        
+        base.OnEndDrag(eventData);
     }   
 }
